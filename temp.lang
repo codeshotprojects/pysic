@@ -1,0 +1,70 @@
+$var = 20
+print $var
+
+if 20 == 20 then
+	print "Done"
+endif
+
+$var2 = "Hello world"
+print $var2
+
+if 22 == 22 then
+	print "tea matches"
+endif
+
+print "After If execution!!!"
+
+INPUT "Enter your name : " $var4
+print $var4
+
+print 2
+print 2*2+4
+
+if 12 << 14 then
+	print "LESS"
+endif
+if 14 >> 12 then
+	print "GREAT"
+endif
+
+$var1 = 22
+$var2 = 44
+
+if 20 << 21 then
+	print "This is less than"
+endif
+
+if 22 >> 19 then
+	print "This is greater than"
+endif
+
+if $var1 << 24 then
+	print "This is less than"
+endif
+
+if 23 << $var2 then
+	print "This is less than"
+endif
+
+if $var2 >> 23 then
+	print "This is greater than"
+endif
+
+if 46 >> $var2 then
+	print "This is greater than"
+endif
+
+$i = 1
+repeat $i << 11  
+	print $i
+endrepeat
+
+$vars = 43
+store $vars in $azx
+print $azx
+
+$r = 5
+$rs = 1
+repeat $rs << $r 
+	print $rs
+endrepeat
